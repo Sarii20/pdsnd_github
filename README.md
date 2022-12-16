@@ -9,7 +9,9 @@ bikeshare data analyst
 dynamic program to analyze bikeshare data based on user inputs 
 
 ### Files used
-Include the files used
+In this project, I used data provided by Motivate, a bike share system provider for many major cities in the United States, to uncover bike share usage patterns. You will compare the system usage between three large cities: Chicago, New York City, and Washington, DC.
+
+
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.

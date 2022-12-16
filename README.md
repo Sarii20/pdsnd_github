@@ -6,7 +6,7 @@
 bikeshare data analyst
 
 ### Description
-Describe what your project is about and what it does
+dynamic program to analyze bikeshare data based on user inputs 
 
 ### Files used
 Include the files used

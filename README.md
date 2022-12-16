@@ -3,7 +3,7 @@
 ### Date created
 12/16/2022
 ### Project Title
-bikeshare data analyst
+bikeshare data analyst for udacity nanodegree program
 
 ### Description
 dynamic program to analyze bikeshare data based on user inputs 

@@ -14,5 +14,5 @@ In this project, I used data provided by Motivate, a bike share system provider 
 
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+to all udacity Instructor
 

@@ -18,7 +18,7 @@ def get_filters():
     print('Hello! Let\'s explore some US bikeshare data!')
     # TO DO: get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     while True:
-        city = input("Would you like to see data for Chicago, New york, or Washington? ").lower()
+        city = input("Would you like to see data for Chicago, New york, or Washington? do not include spaces ").lower()
         if city not in CITY_DATA.keys():
             print( "something is wrong, make sure city is exsit and will written")
             continue
@@ -27,7 +27,7 @@ def get_filters():
         
     # TO DO: get user input for month (all, january, february, ... , june)
     while True:
-        month = input( "select a month:january, february, march, april, may, june , all? " ).lower()
+        month = input( "select a month:january, february, march, april, may, june , all? , case insensitive" ).lower()
         if month not in ('january', 'february', 'march', 'april', 'may', 'june' , 'all'):
             print ('try again')
             continue
@@ -36,7 +36,7 @@ def get_filters():
 
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
     while True:
-        day = input("select a day: all, monday, tuesday,.....").lower()
+        day = input("select a day: monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday','sunday','all.").lower()
         if day not in ('monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday','sunday','all'):
             print('try agian')
             continue

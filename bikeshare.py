@@ -36,7 +36,7 @@ def get_filters():
 
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
     while True:
-        day = input("select a day: all, monday, tuesday,.....").lower()
+        day = input("select a day: monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday','sunday','all.").lower()
         if day not in ('monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday','sunday','all'):
             print('try agian')
             continue
